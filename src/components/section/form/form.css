@@ -1,0 +1,504 @@
+.form-about{
+    text-align: center;
+    font-weight: 800;
+    font-size: 45px;
+    color: rgb(0, 0, 46);
+}
+.section-form{
+    background-color: #F0F3F9;
+
+}
+.languages img{
+    width: 53%;
+    height: 100%;
+ 
+    box-shadow: 5px 3px 5px gray;
+    
+}
+.languages h1{
+    font-size: 180%;
+    margin-left: 4%;
+}
+
+.languages {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 310px;
+    height: 130px;
+    /* margin-top: 10px; */
+    border: none;
+    
+    background-color: rgb(158, 184, 240);
+    margin: 0 auto;
+    margin-top: 60px;
+    box-shadow: 5px 5px 5px gray;
+}
+.form-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* max-height: 1200px; */
+    
+}
+.form-right{
+    width: 50%;
+    height:  700px;    
+    
+}
+
+.form-left{
+    width: 50%;
+    height: 100%;
+}
+.lan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.form-left h2{
+    text-align: center;
+    color: rgb(0, 0, 197);
+}
+.forms{
+      box-shadow: 5px 5px 5px gray;
+    width: 80%;
+    height: 85%;
+    margin: 0 auto;
+    margin-top: 80px;
+    border: 1px solid rgb(117, 0, 0);
+    text-align: center;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    opacity: 90%;
+    background-color: #0024ed;
+    background-image: linear-gradient(43deg, #001696 0%, #bd13b2 50%, #ff0000 100%);
+}
+
+.inputlar{
+       width: 70%;  
+    /* height: 20%; */
+    height: 20%;
+    margin-top: 5%;
+   
+    border: 1px solid rgb(1, 4, 180);
+    font-size: larger;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    transition: 0.2s linear;
+}
+.formlar{
+    height: 50%;
+   
+}
+
+.forms h1{
+    margin: 8%;
+}
+.formlar button{
+    width: 70%;
+    height: 20%;
+    margin-top: 5%;
+    border-radius: 10px;
+    background-color: green;
+    transition: 0.1s linear;
+    border: 1px solid black;
+    font-size: larger;
+    color: white;
+}
+.forms input:hover{
+   background-color: white;
+   background-image: linear-gradient(135deg, #bbe4ff 0%, #555deb 100%);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.forms button:hover{
+    width: 71%;
+   background-color: rgb(0, 197, 0);
+    border-radius: 20px;
+    
+}
+
+@media (max-width:1200px){
+    .languages {
+    width: 255px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 60px;
+    
+}
+.languages h1{
+    font-size: 150%;
+    font-weight: bold;
+    margin-left: 4%;
+}
+.form-left h2{
+    font-size: 20px;
+}
+
+.form-right{
+    width: 50%;
+    height:  650px;    
+}
+.forms h1{
+    font-size: 35px;
+}
+.forms p{
+    font-size: 25px;
+}
+    
+}
+@media (max-width:1050px){
+    .languages {
+    width: 220px;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: 25px;
+    
+}
+.forms input:hover{
+   background-color: white;
+   background-image: linear-gradient(135deg, #bbe4ff 0%, #555deb 100%);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.languages h1{
+    font-size: 130%;
+    font-weight: bold;
+    margin-left: 4%;
+}
+.form-left h2{
+    font-size: 17px;
+}
+
+.form-right{
+    width: 50%;
+    height:  600px;    
+}
+.forms h1{
+    font-size: 30px;
+}
+.forms p{
+    font-size: 22px;
+}
+    
+}
+
+@media (max-width:870px){
+    .languages {
+    width: 220px;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: 25px;
+    
+}
+.forms input:hover{
+   background-color: white;
+   background-image: linear-gradient(135deg, #bbe4ff 0%, #555deb 100%);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.languages h1{
+    font-size: 130%;
+    font-weight: bold;
+    margin-left: 4%;
+}
+   
+.form-left h2{
+    margin-top: 21%;
+}
+    .form-left h2{
+    font-size: 17px;
+}
+
+.form-right{
+    width: 50%;
+    height:  600px;    
+}
+.forms h1{
+    font-size: 30px;
+}
+.forms p{
+    font-size: 22px;
+}
+}
+
+@media (max-width:750px){
+    .section-form h1{
+        font-size: 32px;
+        
+    }
+    .forms input:hover{
+   background-color: white;
+   background-image: linear-gradient(135deg, #bbe4ff 0%, #555deb 100%);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+    .languages {
+    width: 220px;
+    height: 75px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+.languages h1{
+    font-size: 115%;
+    font-weight: bold;
+    margin-left: 4%;
+}
+.form-left h2{
+    font-size: 15px;
+}
+
+.form-right{
+    width: 50%;
+    height:  550px;    
+}
+.forms h1{
+    font-size: 27px;
+    margin-top: 40px;
+}
+.forms p{
+    font-size: 20px;
+    margin-top: 0px;
+}
+.formlar button{
+  
+    margin-top: 7%;
+ 
+}
+
+.inputlar{
+       width: 70%;  
+    /* height: 20%; */
+    height: 18%;
+    margin-top: 8%;
+   
+    border: 1px solid rgb(1, 4, 180);
+    font-size: larger;
+    font-weight: 500;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    transition: 0.2s linear;
+}
+
+.forms input:active{
+     border: 1px solid rgb(1, 4, 180);
+}
+    
+}
+@media (max-width:600px){
+    .form-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .forms input:hover{
+   background-color: white;
+   background-image: linear-gradient(135deg, #bbe4ff 0%, #555deb 100%);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+    .section-form h1{
+        font-size: 35px;
+        
+    }
+    .languages {
+    width: 280px;
+    height: 100px;
+    margin-top: 30px;
+    
+}
+.languages h1{
+    font-size: 150%;
+    font-weight: bold;
+    margin-left: 4%;
+}
+.form-left h2{
+    font-size: 15px;
+}
+
+.form-right{
+    width: 85%;
+    height:  550px;    
+}
+.forms h1{
+    font-size: 27px;
+    margin-top: 40px;
+}
+.forms p{
+    font-size: 20px;
+    margin-top: 0px;
+}
+.formlar button{
+  
+    margin-top: 7%;
+ 
+}
+.forms input{
+    font-size: 18px;
+}
+
+.inputlar{
+       width: 70%;  
+    /* height: 20%; */
+    height: 18%;
+    margin-top: 8%;
+   
+    border: 1px solid rgb(1, 4, 180);
+    font-size: larger;
+    font-weight: 500;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    transition: 0.2s linear;
+}
+
+    
+}
+@media (max-width:450px){
+    .form-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-form h1{
+        font-size: 30px;
+        
+    }
+    .formlar button{
+    width: 70%;
+    height: 18%;
+    margin-top: 6%;
+}
+    .forms input:hover{
+   background-color: white;
+   background-image: linear-gradient(135deg, #bbe4ff 0%, #555deb 100%);
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+.forms input{
+      font-size: 15px;
+}
+    .languages {
+    width: 280px;
+    height: 85px;
+    margin-top: 30px;
+    
+}
+.languages h1{
+    font-size: 130%;
+    font-weight: 700;
+    margin-left: 1%;
+}
+.languages img{
+    width: 49%;
+}
+.form-left h2{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.form-right{
+    width: 90%;
+    height:  500px;    
+}
+.forms h1{
+    font-size: 25px;
+    margin-top: 40px;
+}
+.forms p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+.formlar button{
+  
+    margin-top: 7%;
+ 
+}
+
+.inputlar{
+       width: 70%;  
+    /* height: 20%; */
+    height: 18%;
+    margin-top: 8%;
+   
+    border: 1px solid rgb(1, 4, 180);
+    font-size: larger;
+    font-weight: 500;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    transition: 0.2s linear;
+}
+
+    
+}
+
+@media (max-width:370px){
+    .form-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-form h1{
+        font-size: 27px;
+        
+    }
+    .forms input:hover{
+   background-color: white;
+   background-image: linear-gradient(135deg, #bbe4ff 0%, #555deb 100%);
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+    .languages {
+    width: 280px;
+    height: 80px;
+    margin-top: 30px;
+    
+}
+.languages h1{
+    font-size: 120%;
+    font-weight: 800;
+    margin-left: 0%;
+}
+.form-left h2{
+    font-size: 10px;
+    margin-top: 10px;
+}
+.languages img{
+    width: 50%;
+}
+.form-right{
+    width: 90%;
+    height:  500px;    
+}
+.forms h1{
+    font-size: 22px;
+    margin-top: 45px;
+}
+.forms p{
+    font-size: 16px;
+    margin-top: 5px;
+}
+.formlar button{
+  
+    margin-top: 7%;
+ 
+}
+
+.inputlar{
+       width: 70%;  
+    /* height: 20%; */
+    height: 18%;
+    margin-top: 8%;
+   
+    border: 1px solid rgb(1, 4, 180);
+    font-size: larger;
+    font-weight: 500;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    transition: 0.2s linear;
+}
+
+    
+}

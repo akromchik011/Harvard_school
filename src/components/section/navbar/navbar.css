@@ -1,0 +1,312 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 130px;
+    position: fixed;
+    background-color: rgba(240, 240, 240, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    z-index: 1;
+ 
+}
+.logo{
+    width: 9%;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 5px;
+}
+.logo img{
+    width: 100%;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    border:  none;
+    background: none;
+   
+}
+.btn p{
+     font-size: 24px;
+}
+.scroll{
+    cursor: pointer;
+}
+.btn:hover{
+    border: 2px solid black;
+    background-color: #F4F7FD;
+}
+.box{
+    height: 1500px;
+
+    background-color: red;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+}
+.links{
+    width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.reg-btn{
+    width: 160px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 30px;
+    border:  none;
+    background: none;
+    transition: 0.3s linear;
+}
+.reg-btn:hover{
+          background-color: green;
+          border: 2px solid black;
+}
+
+
+@media (max-width: 1300px){
+    .btn{
+        width: 110px;
+        height: 45px;
+        font-size: 25px;
+    }
+    .btn p{
+    font-size: 20px;
+  }
+  .btn img{
+    width: 20px;
+  }
+  .links a{
+    font-size: 23px;
+
+}
+.logo{
+    margin-left: 5px;
+}
+}
+
+@media (max-width: 1000px){
+    .navbar{
+        height: 110px;
+        width: 100%;
+    }
+    .logo{
+    width: 8%;
+    cursor: pointer;
+    padding: 3px;
+    margin-left: 5px;
+}
+   .links a{
+    font-size: large;
+    font-weight: bold;
+}
+.reg-btn{
+       width: 130px;
+       height: 40px;
+       font-size: 18px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+}
+.btn p{
+    font-size: 17px;
+}
+.btn:hover{
+    border: 1px solid black;
+}
+}
+
+
+
+
+
+@media (max-width: 850px){
+      .navbar{
+        height: 90px;
+        width: 100%;
+    }
+    .logo{
+    width: 8%;
+    cursor: pointer;
+    padding: 1px;
+    margin-left: 4px;
+}
+   .links a{
+    font-size: large;
+    font-weight: bold;
+}
+    .reg-btn{
+       width: 110px;
+       height: 35px;
+       font-size: 17px;
+}
+    .btn{
+    width: 85px;
+    height: 35px;
+    font-size: 16px;
+    justify-content: center;
+}
+  .btn p{
+    font-size: 15px;
+  }
+  .btn img{
+    width: 20px;
+  }
+
+}
+
+
+@media (max-width: 700px){
+      .navbar{
+        height: 85px;
+        width: 100%;
+    }
+    .logo{
+    width: 8%;
+    cursor: pointer;
+    padding: 1px;
+    margin-left: 3px;
+}
+   .links a{
+
+    font-size: 16px;
+}
+    .reg-btn{
+       width: 100px;
+       height: 30px;
+       font-size: 14px;
+}
+    .btn{
+    width: 75px;
+    height: 30px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  .btn p{
+    font-size: 13px;
+    margin: 0;
+  }
+  .btn img{
+    width: 18px;
+  }
+  .reg-btn:hover{
+          
+          border: 1px solid black;
+}
+
+}
+@media(max-width: 600px){
+      .navbar{
+        height: 75px;
+        width: 100%;
+    }
+    .logo{
+    width: 8%;
+    cursor: pointer;
+    padding: 1px;
+    margin-left: 3px;
+}
+   .links a{
+    
+    font-size: 15px;
+}
+    .reg-btn{
+       width: 100px;
+       height: 25px;
+       font-size: 14px;
+}
+    .btn{
+    width: 73px;
+    height: 28px;
+    font-size: 13px;
+    justify-content: center;
+}
+  .btn p{
+    font-size: 13px;
+  }
+  .btn img{
+    width: 18px;
+  }
+}
+
+@media(max-width: 450px){
+      .navbar{
+        height: 65px;
+        position: fixed;
+        width: 100%;
+    }
+    .logo{
+    width: 11%;
+    cursor: pointer;
+    padding: 1px;
+    margin-left: 2px;
+}
+   .links {
+
+    display: none;
+}
+    .reg-btn{
+       width: 100px;
+       height: 30px;
+       font-size: 16px;
+}
+    .btn{
+    width: 85px;
+    height: 33px;
+    font-size: 14px;
+        
+}
+  .btn p{
+    font-size: 16px;
+  }
+  .btn img{
+    width: 16px;
+  }
+}
+
+@media(max-width: 350px){
+      .navbar{
+        height: 55px;
+        width: 100%;
+    }
+    .logo{
+    width: 11%;
+    cursor: pointer;
+    padding: 1px;
+    margin-left: 2px;
+}
+.reg-btn{
+       width: 90px;
+       height: 25px;
+       font-size: 14px;
+}
+    .btn{
+    width: 80px;
+    height: 25px;
+    font-size: 14px;
+    justify-content: center;
+}
+  .btn p{
+    font-size: 14px;
+  }
+  .btn img{
+    width: 18px;
+  }
+}

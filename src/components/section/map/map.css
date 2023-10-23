@@ -1,0 +1,149 @@
+
+.map-left iframe{
+    width: 90%;
+    height: 90%;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 1px;
+}
+.map-left{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.location{
+    text-align: center;
+    padding: 20px;
+    font-weight: 900;
+    color: rgb(7, 7, 102);
+    font-size: 35px;
+}
+.map-main{
+    background-color: #F0F3F9;
+}
+
+@media (max-width:1200px) {
+    .location{
+    text-align: center;
+    font-weight: 900;
+    color: rgb(7, 7, 102);
+    font-size: 35px;
+}
+.map-left iframe{
+    width: 94%;
+    height: 80%;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+}
+@media (max-width:1000px) {
+   .map-main h1{
+    text-align: center;
+    font-weight: 900;
+    color: rgb(7, 7, 102);
+    font-size: 30px;
+   }
+.map-left{
+    margin-top: 15px;
+    height: 500px;
+}
+.map-left iframe{
+    width: 94%;
+    height: 90%;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+}
+
+@media (max-width:900px) {
+   .map-main h1{
+    text-align: center;
+    font-weight: 900;
+    color: rgb(7, 7, 102);
+    font-size: 30px;
+   }
+.map-left{
+    margin-top: 15px;
+   height: 500px;
+}
+.map-left iframe{
+    width: 94%;
+    height: 80%;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+}
+
+@media (max-width:800px) {
+   .map-main h1{
+    text-align: center;
+    font-weight: 900;
+    color: rgb(7, 7, 102);
+    font-size: 30px;
+   }
+.map-left{
+    margin-top: 15px;
+    height: 400px;
+}
+.map-left iframe{
+    width: 94%;
+    height: 90%;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+}
+
+@media (max-width:650px) {
+   .map-main h1{
+    text-align: center;
+    font-weight: 900;
+    color: rgb(7, 7, 102);
+    font-size: 24px;
+   }
+.map-left{
+    margin-top: 15px;
+    height: 300px;
+}
+.map-left iframe{
+    width: 96%;
+    height: 93%;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+}
+
+@media (max-width:450px) {
+   .map-main h1{
+    text-align: center;
+    font-weight: 900;
+    color: rgb(7, 7, 102);
+    font-size: 24px;
+    padding-top: 30px;
+   }
+.map-left{
+    margin-top: 15px;
+    height: 230px;
+}
+.map-left iframe{
+    width: 96%;
+    height: 93%;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+}
