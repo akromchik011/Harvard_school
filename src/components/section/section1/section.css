@@ -1,20 +1,21 @@
 .left{
-    width: 40%;   
-    height: 400px;
+    width: 35%;   
+    height: 420px;
     margin-left: 30px;
     margin-top: 50px;
+    padding: 20px;
 }
 
 
-p{
+.left p{
     font-size: xx-large;
-    color: rgb(0, 0, 0);
+    color: rgb(2, 0, 31);
     font-weight: 900;
 }
 
 .right{
     text-align: center;
-    width: 60%;
+    width: 50%;
     height: 500px;
     background-image: url(../images/ocr-removebg-preview.png);
     background-repeat: no-repeat;
@@ -30,7 +31,7 @@ p{
 .section1{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     padding-top: 160px;
     background-color: #F0F3F9;
     width: 100%;
@@ -44,7 +45,7 @@ p{
    
      max-width: 85%;
      animation-duration: 4s;
-     height: 90%;  
+     height: 85%;  
    
       
 }
@@ -59,6 +60,11 @@ p{
     margin-left: 30px;
     padding: 10px;
     
+    
+}
+.left p{
+    font-size: 25px;
+    margin-top: 10%;
 }
 p{
     font-size: xx-large;
@@ -79,6 +85,9 @@ p{
     padding: 10px;
     
 }
+.left p{
+    font-size: 20px;
+}
 p{
     font-size: 24px;
     color: rgb(0, 0, 0);
@@ -95,11 +104,14 @@ p{
 
 @media (max-width:900px) {
     .left{
-    width: 40%;   
+    width: 35%;   
     height: 300px;
     margin-left: 20px;
-    padding: 10px;
-    
+    padding: 15px;
+    margin-top: 50px;
+}
+.left p{
+    font-size: 16px;
 }
 p{
     font-size: 18px;
@@ -112,9 +124,9 @@ p{
 }
 .right img{
    
-    max-width: 85%;
+    max-width: 75%;
    
-   height: 75%;  
+   height: 70%;  
 
       
 }
@@ -131,6 +143,14 @@ p{
     padding: 10px;
     
 }
+.left p{
+    font-size: 25px;
+    margin-top: 10%;
+}
+.left p{
+    font-size: 14px;
+    margin-top: 12%;
+}
 p{
     font-size: 16px;
     color: rgb(0, 0, 0);
@@ -138,14 +158,14 @@ p{
    
 }
 .right{
-    height: 370px;
+    height: 360px;
     padding: 8px;
 }
 .right img{
    
     max-width: 85%;
    
-   height: 70%;  
+   height: 68%;  
 
       
 }
@@ -157,11 +177,15 @@ p{
 
 @media (max-width:700px) {
     .left{
-    width: 40%;   
+    width: 36%;   
     height: 250px;
     margin-left: 15px;
     padding: 8px;
     
+}
+.left p{
+    font-size: 12px;
+    margin-top: 18%;
 }
 p{
     font-size: 15px;
@@ -189,11 +213,15 @@ p{
 
 @media (max-width:550px) {
     .left{
-    width: 40%;   
+    width: 35%;   
     height: 250px;
     margin-left: 12px;
     padding: 8px;
     
+}
+.left p{
+    font-size: 10px;
+    margin-top: 25%;
 }
 p{
     font-size: 12px;
@@ -206,9 +234,9 @@ p{
 }
 .right img{
    
-    max-width: 85%;
+    max-width: 75%;
    
-   height: 60%;  
+   height: 50%;  
 
       
 }
@@ -218,11 +246,25 @@ p{
 }
 @media (max-width:450px) {
     .left{
-    width: 40%;   
-    height: 220px;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    height: 180px;
     margin-left: 10px;
     padding: 5px;
     
+}.left p{
+    text-align: center;
+    margin: 0px 0px 0px;
+    font-size: 18px;
+    width: 95%;
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-top: 12%;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
 }
 p{
     font-size: 9px;
@@ -230,14 +272,16 @@ p{
     font-weight: 150px;
 }
 .right{
-    height: 260px;
-    padding: 8px;
+    width: 85%;
+    height: 330px;
+    padding: 3px;
+    margin-top: 0;
 }
 .right img{
    
-    max-width: 85%;
-   
+    max-width: 90%;
    height: 52%;  
+   margin-left: 30%;
 
       
 }
@@ -250,11 +294,14 @@ p{
 
 @media (max-width:380px) {
     .left{
-    width: 40%;   
-    height: 210px;
     margin-left: 8px;
     padding: 3px;
+    margin-top: 7%;
     
+}
+.left p{
+    font-size: 16px;
+    margin-top: 10%;
 }
 p{
     font-size: 7px;
@@ -262,14 +309,13 @@ p{
     font-weight: 100px;
 }
 .right{
-    height: 240px;
+    height: 220px;
     padding: 5px;
 }
 .right img{
    
-    max-width: 85%;
-   
-   height: 47%;  
+    max-width: 90%;
+   height: 55%;  
 
       
 }

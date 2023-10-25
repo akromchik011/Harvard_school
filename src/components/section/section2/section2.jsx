@@ -1,11 +1,12 @@
 import React from "react";
 import ExIcon from "../images/customer-review.png";
 import "./section2.css";
-import loc from "../images/location.png";
-import sys from "../images/global-learning.png";
-import ev from "../images/billboard.png";
-import ms from "../images/presentation.png";
-import ex from "../images/checklist.png";
+import loc from "../images/maps-and-flags (1).png";
+import sys from "../images/modeling.png";
+import ev from "../images/calendar (1).png";
+import ms from "../images/blackboard.png";
+import ex from "../images/exam.png";
+import { Button } from "@mui/material";
 
 function Section2() {
   return (
@@ -65,7 +66,7 @@ function Section2() {
             </div>
 
             <div className="text1">
-              <h1>Bepul master classlar</h1>
+              <h1>Master classlar</h1>
               <p>
                 Bizda har hafta profesional ustozlar tomonidan bepul master
                 class darslari bo'lib o'tadi.

@@ -1,21 +1,32 @@
 .navbar{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     height: 130px;
     position: fixed;
     background-color: rgba(240, 240, 240, 0.4);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
-    z-index: 1;
+    z-index: 999;
  
 }
+.buttons{
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
 .logo{
-    width: 9%;
+    width: 15%;
+    margin-left: 12px;
     cursor: pointer;
     padding: 10px;
-    margin-left: 5px;
+}
+.linklar{
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
 }
 .logo img{
     width: 100%;
@@ -23,14 +34,14 @@
 .btn{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: 130px;
+    justify-content: space-evenly;
+    width: 140px;
     height: 50px;
     font-size: 20px;
     font-weight: bold;
     border-radius: 30px;
     border:  none;
-    background: none;
+    background-color: red;
    
 }
 .btn p{
@@ -55,32 +66,32 @@
     font-weight: bold;
 }
 .links{
-    width: 50%;
+    width: 60%;
    display: flex;
    align-items: center;
-   justify-content: space-around;
+   justify-content: space-evenly;
 }
 
 .reg-btn{
-    width: 160px;
-    height: 50px;
+    width: 165px;
+    height: 52px;
     font-size: 24px;
     font-weight: bold;
     border-radius: 30px;
-    border:  none;
-    background: none;
-    transition: 0.3s linear;
+    border: none;
+    background-color: green;
+    transition: 0.1s linear;
 }
 .reg-btn:hover{
-          background-color: green;
-          border: 2px solid black;
+          background-color: rgb(53, 168, 62);
+          border: 1px solid rgb(0, 104, 9);
 }
 
 
 @media (max-width: 1300px){
     .btn{
         width: 110px;
-        height: 45px;
+        height: 44px;
         font-size: 25px;
     }
     .btn p{
@@ -94,7 +105,15 @@
 
 }
 .logo{
-    margin-left: 5px;
+    margin-left: 4px;
+    width: 16%;
+}
+.reg-btn{
+    width: 155px;
+    height: 44px;
+    font-size: 21px;
+    font-weight: bold;
+    border-radius: 30px;
 }
 }
 
@@ -102,9 +121,18 @@
     .navbar{
         height: 110px;
         width: 100%;
+         position: fixed;
     }
+
+    .reg-btn{
+    width: 145px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+}
     .logo{
-    width: 8%;
+    width: 15%;
     cursor: pointer;
     padding: 3px;
     margin-left: 5px;
@@ -116,12 +144,12 @@
 .reg-btn{
        width: 130px;
        height: 40px;
-       font-size: 18px;
+       font-size: 16px;
 }
 .btn{
     width: 100px;
-    height: 40px;
-    font-size: 17px;
+    height: 38px;
+    font-size: 15 px;
 }
 .btn p{
     font-size: 17px;
@@ -139,9 +167,19 @@
       .navbar{
         height: 90px;
         width: 100%;
+        position: fixed;
+        z-index: 1;
     }
+
+      .reg-btn{
+    width: 140px;
+    height: 38px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+}
     .logo{
-    width: 8%;
+ 
     cursor: pointer;
     padding: 1px;
     margin-left: 4px;
@@ -153,7 +191,7 @@
     .reg-btn{
        width: 110px;
        height: 35px;
-       font-size: 17px;
+       font-size: 15px;
 }
     .btn{
     width: 85px;
@@ -162,10 +200,10 @@
     justify-content: center;
 }
   .btn p{
-    font-size: 15px;
+    font-size: 14px;
   }
   .btn img{
-    width: 20px;
+    width: 18px;
   }
 
 }
@@ -175,9 +213,10 @@
       .navbar{
         height: 85px;
         width: 100%;
+         position: fixed;
+         z-index: 1;
     }
     .logo{
-    width: 8%;
     cursor: pointer;
     padding: 1px;
     margin-left: 3px;
@@ -188,13 +227,13 @@
 }
     .reg-btn{
        width: 100px;
-       height: 30px;
-       font-size: 14px;
+       height: 28px;
+       font-size: 13px;
 }
     .btn{
     width: 75px;
-    height: 30px;
-    font-size: 14px;
+    height: 28px;
+    font-size: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -204,7 +243,7 @@
     margin: 0;
   }
   .btn img{
-    width: 18px;
+    width: 16px;
   }
   .reg-btn:hover{
           
@@ -216,9 +255,10 @@
       .navbar{
         height: 75px;
         width: 100%;
+           position: fixed;
+         z-index: 1;
     }
     .logo{
-    width: 8%;
     cursor: pointer;
     padding: 1px;
     margin-left: 3px;
@@ -228,21 +268,21 @@
     font-size: 15px;
 }
     .reg-btn{
-       width: 100px;
-       height: 25px;
-       font-size: 14px;
+       width: 80px;
+       height: 20px;
+       font-size: 10px;
 }
     .btn{
-    width: 73px;
-    height: 28px;
-    font-size: 13px;
+    width: 65px;
+    height: 20px;
+    font-size: 10px;
     justify-content: center;
 }
   .btn p{
-    font-size: 13px;
+    font-size: 11px;
   }
   .btn img{
-    width: 18px;
+    width: 13px;
   }
 }
 
@@ -251,33 +291,43 @@
         height: 65px;
         position: fixed;
         width: 100%;
+         z-index: 1;
+    }
+    .links{
+      width: 30%;
     }
     .logo{
-    width: 11%;
     cursor: pointer;
     padding: 1px;
-    margin-left: 2px;
+      display: flex;
+      justify-content: start;
+    width: 48%;
 }
-   .links {
+   .linklar {
 
     display: none;
 }
+.buttons{
+  display: flex;
+  justify-content: space-evenly;
+  width: 85%;
+}
     .reg-btn{
        width: 100px;
-       height: 30px;
-       font-size: 16px;
+       height: 25px;
+       font-size: 14px;
 }
     .btn{
     width: 85px;
-    height: 33px;
-    font-size: 14px;
+    height: 25px;
+    font-size: 13px;
         
 }
   .btn p{
-    font-size: 16px;
+    font-size: 13px;
   }
   .btn img{
-    width: 16px;
+    width: 14px;
   }
 }
 
@@ -285,28 +335,30 @@
       .navbar{
         height: 55px;
         width: 100%;
+           position: fixed;
+         z-index: 1;
     }
     .logo{
-    width: 11%;
+    width: 51%;
     cursor: pointer;
     padding: 1px;
     margin-left: 2px;
 }
 .reg-btn{
        width: 90px;
-       height: 25px;
-       font-size: 14px;
+       height: 22px;
+       font-size: 12px;
 }
     .btn{
-    width: 80px;
-    height: 25px;
-    font-size: 14px;
+    width: 70px;
+    height: 22px;
+    font-size: 12px;
     justify-content: center;
 }
   .btn p{
-    font-size: 14px;
+    font-size: 12px;
   }
   .btn img{
-    width: 18px;
+    width: 14px;
   }
 }

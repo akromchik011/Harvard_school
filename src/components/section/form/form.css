@@ -65,18 +65,18 @@
     color: rgb(0, 0, 197);
 }
 .forms{
+
       box-shadow: 5px 5px 5px gray;
     width: 80%;
     height: 85%;
     margin: 0 auto;
     margin-top: 80px;
-    border: 1px solid rgb(117, 0, 0);
+    border: 1px solid rgb(56, 56, 56);
     text-align: center;
-    border-top-left-radius: 70px;
-    border-bottom-right-radius: 70px;
+    border-radius: 20px;
     opacity: 90%;
     background-color: #0024ed;
-    background-image: linear-gradient(43deg, #001696 0%, #bd13b2 50%, #ff0000 100%);
+    background-image: linear-gradient(43deg, #182da5 0%, #525aa5 50%, #5c83ee 100%);
 }
 
 .inputlar{
@@ -84,7 +84,7 @@
     /* height: 20%; */
     height: 20%;
     margin-top: 5%;
-   
+    border-radius: 8px;
     border: 1px solid rgb(1, 4, 180);
     font-size: larger;
     background-color: #8BC6EC;
@@ -95,9 +95,13 @@
     height: 50%;
    
 }
-
+.forms input{
+    padding: 7px;
+    font-size: larger;
+}
 .forms h1{
     margin: 8%;
+    color: white;
 }
 .formlar button{
     width: 70%;
@@ -106,15 +110,15 @@
     border-radius: 10px;
     background-color: green;
     transition: 0.1s linear;
-    border: 1px solid black;
+    border: 1px solid rgb(5, 20, 88);
     font-size: larger;
     color: white;
 }
 .forms input:hover{
    background-color: white;
    background-image: linear-gradient(135deg, #bbe4ff 0%, #555deb 100%);
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+   border: 0.5px solid blue;
+
 }
 .forms button:hover{
     width: 71%;
@@ -122,7 +126,10 @@
     border-radius: 20px;
     
 }
-
+.forms p{
+    font-size: larger;
+    color: #dbdfe7;
+}
 @media (max-width:1200px){
     .languages {
     width: 255px;
@@ -163,8 +170,7 @@
 .forms input:hover{
    background-color: white;
    background-image: linear-gradient(135deg, #bbe4ff 0%, #555deb 100%);
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+
 }
 .languages h1{
     font-size: 130%;
@@ -199,8 +205,7 @@
 .forms input:hover{
    background-color: white;
    background-image: linear-gradient(135deg, #bbe4ff 0%, #555deb 100%);
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+
 }
 .languages h1{
     font-size: 130%;
@@ -217,13 +222,24 @@
 
 .form-right{
     width: 50%;
-    height:  600px;    
+    height:  550px;    
+    margin-top: 5%;
 }
 .forms h1{
     font-size: 30px;
 }
 .forms p{
-    font-size: 22px;
+    font-size: 18px;
+}
+.forms .inputlar{
+    font-size: 17px;
+    padding: 5px;
+}
+.forms input{
+    margin-top: 20px;
+}
+.forms button{
+    margin-top: 8%;
 }
 }
 
@@ -235,8 +251,7 @@
     .forms input:hover{
    background-color: white;
    background-image: linear-gradient(135deg, #bbe4ff 0%, #555deb 100%);
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    
 }
     .languages {
     width: 220px;
@@ -256,14 +271,14 @@
 
 .form-right{
     width: 50%;
-    height:  550px;    
+    height:  500px;    
 }
 .forms h1{
-    font-size: 27px;
+    font-size: 24px;
     margin-top: 40px;
 }
 .forms p{
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 0px;
 }
 .formlar button{
@@ -285,7 +300,9 @@
     background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
     transition: 0.2s linear;
 }
-
+.forms button:hover{
+    border-radius: 15px;
+}
 .forms input:active{
      border: 1px solid rgb(1, 4, 180);
 }
@@ -299,8 +316,7 @@
     .forms input:hover{
    background-color: white;
    background-image: linear-gradient(135deg, #bbe4ff 0%, #555deb 100%);
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+   
 }
     .section-form h1{
         font-size: 35px;
@@ -326,12 +342,13 @@
     height:  550px;    
 }
 .forms h1{
-    font-size: 27px;
+    font-size: 28px;
     margin-top: 40px;
 }
 .forms p{
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 0px;
+   
 }
 .formlar button{
   
@@ -339,17 +356,18 @@
  
 }
 .forms input{
-    font-size: 18px;
+    font-size: 10px;
+    margin-top: 6%;
 }
 
 .inputlar{
        width: 70%;  
     /* height: 20%; */
-    height: 18%;
-    margin-top: 8%;
+    height: 22%;
+    margin-top: 15%;
    
     border: 1px solid rgb(1, 4, 180);
-    font-size: larger;
+ 
     font-weight: 500;
     background-color: #8BC6EC;
     background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
@@ -375,11 +393,11 @@
     .forms input:hover{
    background-color: white;
    background-image: linear-gradient(135deg, #bbe4ff 0%, #555deb 100%);
-    border-top-left-radius: 18px;
-    border-bottom-right-radius: 18px;
+  
 }
 .forms input{
-      font-size: 15px;
+      font-size: 3px;
+      padding: 5px;
 }
     .languages {
     width: 280px;
@@ -405,15 +423,15 @@
     height:  500px;    
 }
 .forms h1{
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 40px;
 }
 .forms p{
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 5px;
 }
 .formlar button{
-  
+    height: 20%;
     margin-top: 7%;
  
 }
@@ -421,12 +439,10 @@
 .inputlar{
        width: 70%;  
     /* height: 20%; */
-    height: 18%;
-    margin-top: 8%;
+    height: 20%;
+    margin-top: 10%;
    
     border: 1px solid rgb(1, 4, 180);
-    font-size: larger;
-    font-weight: 500;
     background-color: #8BC6EC;
     background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
     transition: 0.2s linear;
@@ -447,8 +463,10 @@
     .forms input:hover{
    background-color: white;
    background-image: linear-gradient(135deg, #bbe4ff 0%, #555deb 100%);
-    border-top-left-radius: 18px;
-    border-bottom-right-radius: 18px;
+
+}
+.forms input{
+    font-size: smaller;
 }
     .languages {
     width: 280px;
@@ -493,7 +511,7 @@
     margin-top: 8%;
    
     border: 1px solid rgb(1, 4, 180);
-    font-size: larger;
+    
     font-weight: 500;
     background-color: #8BC6EC;
     background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
